@@ -12,6 +12,12 @@ namespace helpSpace
     {
         std::cout << " Hello world R.S.I libary !" << std::endl;
     }
+    
+    void newTestPullRequest()
+{
+    std::cout << "Should create new branch dev and commit to" << std::endl;
+}
+
 
     Power::Power(int f_value , int s_value )  // Constructor
     {
